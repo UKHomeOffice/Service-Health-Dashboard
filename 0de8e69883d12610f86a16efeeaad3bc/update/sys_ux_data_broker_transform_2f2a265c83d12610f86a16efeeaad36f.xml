@@ -39,7 +39,7 @@
         var obj = {
             "name": childService.getValue('name'),
             "color": getColor(childService),
-            "link": "priority=1^ORpriority=2^business_service=" + childService.getValue("sys_id"),
+            "link": "active=true^priority=1^ORpriority=2^stateNOT IN6,7^business_service=" + childService.getValue("sys_id"),
             "parent": inputs.sysId
         };
         childServices.push(obj);
@@ -51,7 +51,7 @@
 
         var ga = new GlideAggregate("incident");
         ga.addAggregate("COUNT");
-        ga.addEncodedQuery("active=true^business_service=" + service.sys_id);
+        ga.addEncodedQuery("active=true^stateNOT IN6,7^business_service=" + service.sys_id);
         ga.groupBy("priority");
         ga.orderBy("priority");
         ga.query();
@@ -75,15 +75,27 @@
         <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-30 07:10:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2f2a265c83d12610f86a16efeeaad36f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>childServices</sys_name>
         <sys_package display_value="Service Health Dashboard" source="x_snc_service_he_0">0de8e69883d12610f86a16efeeaad3bc</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Service Health Dashboard">0de8e69883d12610f86a16efeeaad3bc</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_2f2a265c83d12610f86a16efeeaad36f</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-30 07:10:29</sys_updated_on>
+        <sys_updated_by>VelentL</sys_updated_by>
+        <sys_updated_on>2025-05-09 12:08:42</sys_updated_on>
     </sys_ux_data_broker_transform>
-    <sys_translated_text action="delete_multiple" query="documentkey=2f2a265c83d12610f86a16efeeaad36f"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2f2a265c83d12610f86a16efeeaad36f</id>
+        <sys_created_by>VelentL</sys_created_by>
+        <sys_created_on>2025-05-09 12:08:42</sys_created_on>
+        <sys_id>ffb44a5ffbddee108707f65caeefdc84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>VelentL</sys_updated_by>
+        <sys_updated_on>2025-05-09 12:08:42</sys_updated_on>
+        <table>sys_ux_data_broker_transform</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
