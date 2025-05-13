@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Service Health Dashboard v2">9f8ef650fb29aa105ebef52cbeefdc4e</application>
+        <application display_value="Service Health Dashboard">9f8ef650fb29aa105ebef52cbeefdc4e</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -29,8 +29,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cf708bd4fb29aa105ebef52cbeefdcf1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Service Health Dashboard v2 link</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Service Health Dashboard link</sys_name>
         <sys_overrides/>
         <sys_package display_value="Service Health Dashboard" source="x_snc_service_he_0">0de8e69883d12610f86a16efeeaad3bc</sys_package>
         <sys_policy/>
@@ -38,9 +38,9 @@
         <sys_scope display_value="Service Health Dashboard">0de8e69883d12610f86a16efeeaad3bc</sys_scope>
         <sys_update_name>sys_app_module_cf708bd4fb29aa105ebef52cbeefdcf1</sys_update_name>
         <sys_updated_by>VelentL</sys_updated_by>
-        <sys_updated_on>2025-05-12 19:10:01</sys_updated_on>
+        <sys_updated_on>2025-05-13 09:52:20</sys_updated_on>
         <timeline_page/>
-        <title>Service Health Dashboard v2 link</title>
+        <title>Service Health Dashboard link</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
