@@ -2735,7 +2735,7 @@
         "inputValues": {
             "filterConditions": {
                 "type": "JSON_LITERAL",
-                "value": "business_serviceISNOTEMPTY"
+                "value": "active=true^priorityIN1,2^stateNOT IN6,7"
             },
             "subscribe": {
                 "type": "JSON_LITERAL",
@@ -3596,7 +3596,7 @@
         <sys_created_on>2025-04-30 07:06:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3a59ead883d12610f86a16efeeaad324</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Tile View</sys_name>
         <sys_package display_value="Service Health Dashboard" source="x_snc_service_he_0">0de8e69883d12610f86a16efeeaad3bc</sys_package>
         <sys_policy/>
@@ -3604,6 +3604,6 @@
         <sys_scope display_value="Service Health Dashboard">0de8e69883d12610f86a16efeeaad3bc</sys_scope>
         <sys_update_name>sys_ux_macroponent_3a59ead883d12610f86a16efeeaad324</sys_update_name>
         <sys_updated_by>VelentL</sys_updated_by>
-        <sys_updated_on>2025-05-14 14:48:24</sys_updated_on>
+        <sys_updated_on>2025-05-19 10:19:50</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
