@@ -12,21 +12,23 @@
   * @param {TransformApiHelpers} params.helpers
   */
 function evaluateProperty({api, helpers}) {
-	return '*{border-color: rgb(var(--now-color--neutral-0));border-width: var(--now-static-space--xxs);border-style: solid;border-radius: var(--now-static-border-radius--lg);padding:10px;text-align:center;position:absolute;height:100%;width:100%;left:0;top:0;color:rgb(var(--now-color--neutral-0));background-color:' + api.item.value.color + '}';
+	return '*{display:flex;justify-content:center;align-items:center;border-color: rgb(var(--now-color--neutral-0));border-width: var(--now-static-space--xxs);border-style: solid;border-radius: var(--now-static-border-radius--lg);padding:10px;text-align:center;position:absolute;height:100%;width:100%;left:0;top:0;color:rgb(var(--now-color--neutral-0));background-color:' + api.item.value.color + ';font-weight:bold;font-size:1.05rem;}';
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-30 07:31:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>df0daa1083152610f86a16efeeaad3eb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>stylized_text_3/now_default/css</sys_name>
         <sys_package display_value="Service Health Dashboard" source="x_snc_service_he_0">0de8e69883d12610f86a16efeeaad3bc</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Service Health Dashboard">0de8e69883d12610f86a16efeeaad3bc</sys_scope>
         <sys_update_name>sys_ux_client_script_df0daa1083152610f86a16efeeaad3eb</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-30 07:31:53</sys_updated_on>
+        <sys_updated_by>VelentL</sys_updated_by>
+        <sys_updated_on>2025-05-15 09:31:53</sys_updated_on>
         <target>macroponent</target>
         <type>transform</type>
     </sys_ux_client_script>
